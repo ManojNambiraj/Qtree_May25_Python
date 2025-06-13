@@ -24,7 +24,11 @@
         (and, or, not)
     
     5. Identity OP
+        (is, is not)
+
     6. Membership OP
+        (in, not in)
+
     7. Bitwise OP
         (&, |, ~, ^, <<, >>)
 
@@ -68,70 +72,85 @@
 
 # 4. Logical OP (and, or, not)
 
-# and
+    # and
 
-"""
-    (True)  and (True)  ---> True
-    (True)  and (False) ---> False
-    (False) and (True)  ---> False
-    (False) and (False) ---> False
-"""
+    # """
+    #     (True)  and (True)  ---> True
+    #     (True)  and (False) ---> False
+    #     (False) and (True)  ---> False
+    #     (False) and (False) ---> False
+    # """
 
-# or
+    # or
 
-"""
-    (True)  or (True)  ---> True
-    (True)  or (False) ---> True
-    (False) or (True)  ---> True
-    (False) or (False) ---> False
-"""
+    # """
+    #     (True)  or (True)  ---> True
+    #     (True)  or (False) ---> True
+    #     (False) or (True)  ---> True
+    #     (False) or (False) ---> False
+    # """
 
-# not
+    # not
 
-"""
-    (True)  ---> False
-    (False) ---> True
-"""
+    # """
+    #     (True)  ---> False
+    #     (False) ---> True
+    # """
 
-# age = 22
+    # age = 22
 
-# # result = (age > 18) and (age > 25)
-# result = (age < 18) or (age > 25)
+    # # result = (age > 18) and (age > 25)
+    # result = (age < 18) or (age > 25)
 
-# print(not result)
+    # print(not result)
 
 # 7. Bitwise OP (&, |, ~, ^, <<, >>)
 
-# & --> (Bitwise AND)
+    # & --> (Bitwise AND)
 
-    # 1 & 1 --> 1
-    # 1 & 0 --> 0
-    # 0 & 1 --> 0
-    # 0 & 0 --> 0
+        # 1 & 1 --> 1
+        # 1 & 0 --> 0
+        # 0 & 1 --> 0
+        # 0 & 0 --> 0
 
-# | --> (Bitwise OR)
+    # | --> (Bitwise OR)
 
-    # 1 | 1 --> 1
-    # 1 | 0 --> 1
-    # 0 | 1 --> 1
-    # 0 | 0 --> 0
+        # 1 | 1 --> 1
+        # 1 | 0 --> 1
+        # 0 | 1 --> 1
+        # 0 | 0 --> 0
 
-# ^ --> (Bitwise XOR)
+    # ^ --> (Bitwise XOR)
 
-    # 1 | 1 --> 0
-    # 1 | 0 --> 1
-    # 0 | 1 --> 1
-    # 0 | 0 --> 0
+        # 1 | 1 --> 0
+        # 1 | 0 --> 1
+        # 0 | 1 --> 1
+        # 0 | 0 --> 0
 
-a = 5
+        # a = 5
 
-result = a << 2
+        # result = a << 2
 
-print(result)
+        # print(result)
 
-# Explanation
+        # Explanation
 
-# (5) --> 00000101
-# -----------------
-# (1) --> 00001010     --> 10
-# (2) --> 00010100     --> 20
+        # (5) --> 00000101
+        # -----------------
+        # (1) --> 00001010     --> 10
+        # (2) --> 00010100     --> 20
+
+# 5. Identity OP --> (is, is not)
+
+    # x = ["apple", "banana", "grapes"]
+    # y = ["apple", "banana", "grapes"]
+    # z = x
+
+    # print(x is z)
+    # print(x is not z)
+
+# 6. Membership OP --> (in, not in)
+
+    # x = ["apple", "banana", "grapes"]
+
+    # print("apple" not in x)
