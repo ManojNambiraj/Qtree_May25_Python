@@ -27,9 +27,33 @@
     # demo(100)
     # demo(500)
 
-def mulByTwo(a, b):
-    return a * b
+    # def mulByTwo(a, b):
+    #     return a * b
 
-result1 = mulByTwo(5, 2)
+    # result1 = mulByTwo(5, 2)
 
-print(result1)
+    # print(result1)
+
+# Types Parameters (Arguments):
+
+    # 1. Default arguments
+
+        # def demo(a, b, c = 1):
+        # print(a, b, c)
+
+        # demo(7, 2)  
+
+    # 2. Positional arguments
+
+        # def foo(a, b, c):
+        #     print(a, b, c)
+
+        # foo(7, 2, 9)
+
+    # 3. Keyword arguments
+
+        # def demo(a, b, c):
+        #     print(a, b, c)
+
+        # demo(b = 7, c = 2, a = 9)
+
